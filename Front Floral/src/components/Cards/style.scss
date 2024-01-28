@@ -1,0 +1,152 @@
+.backImage {
+  width: 100%;
+  min-height: 130vh;
+  background: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Quicksand;
+  background-size: cover;
+  .header {
+    margin-top: 130px;
+    color: #1b745e;
+    text-align: center;
+    line-height: 40px;
+    p {
+      font-style: italic;
+    }
+    h1 {
+      font-weight: 300;
+      font-size: 40px;
+    }
+  }
+  .input {
+    border-bottom: 1px solid #10634e;
+    input {
+      margin-top: 20px;
+      width: 200px;
+      height: 30px;
+      outline: none;
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+  button {
+    margin-top: 30px;
+    margin-right: 10px;
+    color: #10634e;
+    background-color: #d8e3d5;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 20px;
+  }
+  .cardsContainer {
+    width: 60%;
+    margin: 60px auto;
+    .cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 50px;
+      .card {
+        margin-bottom: 40px;
+        .image {
+          width: 300px;
+          height: 300px;
+          position: relative;
+          .bck {
+            background-color: white;
+            width: 35px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            height: 35px;
+            border-radius: 50%;
+            .fa-heart {
+              padding: 9px;
+              font-size: 19px;
+            }
+            a {
+              color: #1b745e;
+            }
+          }
+          .bckDelete {
+            background-color: white;
+            width: 35px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            height: 35px;
+            border-radius: 50%;
+            .fa-trash {
+              padding: 9px;
+              font-size: 19px;
+            }
+            a {
+              color: #1b745e;
+            }
+          }
+          .bckDetail {
+            background-color: white;
+            width: 35px;
+            position: absolute;
+            top: 70px;
+            right: 20px;
+            height: 35px;
+            border-radius: 50%;
+            .fa-eye {
+              padding: 7px;
+              font-size: 19px;
+            }
+            a {
+              color: #1b745e;
+            }
+          }
+          img {
+            width: 100%;
+            height: 100%;
+          }
+          &:hover {
+            .addToCard {
+              opacity: 1;
+            }
+          }
+          .addToCard {
+            transition: all 700ms;
+            width: 300px;
+            height: 40px;
+            background-color: #1b745e;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h4 {
+              a {
+                color: white;
+              }
+            }
+          }
+        }
+        .text {
+          color: #1b745e;
+          padding-top: 20px;
+          text-align: center;
+          line-height: 30px;
+          h3 {
+            font-weight: 300;
+          }
+          p {
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.ourTeam {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Quicksand;
+
+  .headerTeam {
+    color: #1b745e;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 40px;
+    p {
+      font-style: italic;
+    }
+    h1 {
+      font-weight: 300;
+      font-size: 40px;
+    }
+  }
+  .cardsContainerPhoto {
+    width: 60%;
+    margin: 60px auto;
+    .cardsPhoto {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+      justify-content: center;
+      .photoCard {
+        margin-bottom: 40px;
+        .image {
+          width: 330px;
+          height: 350px;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .text {
+        color: #1b745e;
+        padding-top: 20px;
+        text-align: center;
+        line-height: 30px;
+        h3 {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
